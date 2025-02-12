@@ -214,7 +214,7 @@ void ExportaCSV(CARTA* cartas, int tamanho){
 
 
             for (int i = 0; i < tamanho; i++){
-                fprintf(archivecsv, "%s,%c,%d,%d,%d,%d,%d",
+                fprintf(archivecsv, "%s,%c,%d,%d,%d,%d,%d\n",
                     cartas[i].nome,
                     cartas[i].letra,
                     cartas[i].numero,
